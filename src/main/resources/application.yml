@@ -5,7 +5,7 @@ spring:
     show-sql: true
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/stock_example
+    url: jdbc:mariadb://localhost:3306/stock_example
     username: root
     password: 1234
 
